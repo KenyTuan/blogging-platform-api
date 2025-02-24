@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: blogging-platform-api
+
+  data:
+    mongodb:
+      uri: mongodb://${MY_USER_DB}:${MY_PASS_DB}@localhost:27017/${MY_DATABASE}?authSource=admin
